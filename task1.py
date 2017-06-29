@@ -1,5 +1,6 @@
 # You get a price (a number). Add 22% tax to it and round it off to 2 decimal places.
 
+
 def add_tax(price):
     """
     >>> add_tax(100)
