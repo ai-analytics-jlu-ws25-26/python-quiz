@@ -1,10 +1,9 @@
-# You are given a list of integers. Sort them in reverse order (largest to smallest)
+# You get a price (a number). Add 22% tax to it and round it off to 2 decimal places.
 
-
-def sort_reverse(list_of_integers):
+def add_tax(price):
     """
-    >>> sort_reverse([5,1,2,8])
-    [8, 5, 2, 1]
-    >>> sort_reverse([7,1,3,10])
-    [10, 7, 3, 1]
+    >>> add_tax(100)
+    122.0
+    >>> add_tax(6.53)
+    7.97
     """
