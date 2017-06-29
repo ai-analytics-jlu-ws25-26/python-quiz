@@ -7,7 +7,7 @@ score = -1
 for f in files:
     o = ""
     try:
-        o = subprocess.check_output("python -m doctest -v %s" % f)
+        o = subprocess.check_output(("python -m doctest -v %s" % f).split(" "))
     except subprocess.CalledProcessError as e:
         o = e.output
     # print(str(o))  # debug info
