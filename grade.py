@@ -10,7 +10,7 @@ for f in files:
         o = subprocess.check_output("python -m doctest -v %s" % f)
     except subprocess.CalledProcessError as e:
         o = e.output
-    print(str(o))  # debug info
+    # print(str(o))  # debug info
 
     match = re.search("(\d) passed and (\d) failed", str(o))
     passed = int(match.group(1))
