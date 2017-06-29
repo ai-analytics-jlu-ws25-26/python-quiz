@@ -3,6 +3,6 @@
 
 def pick_integer_numbers_only(my_elements):
     """
-    >>> pick_integer_numbers_only('elephant', 'one', 128, 'even', 256, 1.337, 2, 'spacebook')
+    >>> pick_integer_numbers_only(['elephant', 'one', 128, 'even', 256, 1.337, 2, 'spacebook'])
     [128, 256, 2]
     """

@@ -1,5 +1,6 @@
 # Create a Car class with an x property. Return an object of class Car with x=1
 
+
 def make_object():
     """
     >>> c=make_object()
