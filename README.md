@@ -7,8 +7,32 @@ These tasks serve as a self-assessment tool to evaluate your proficiency in Pyth
 The file [task0.py](task0.py) is provided as an example to illustrate how to approach and solve the tasks.
 
 Once you have completed all the tasks, run the following command in your terminal to grade your solutions:
-```bash
-streamlit run [grader.py](http://_vscodecontentref_/0)
+```
+streamlit run grader.py
+```
+## Technical Setup-up
+1. Make sure [python 3.12](https://www.python.org/downloads/release/python-3120/) is installed on your local machine
+2. Make also sure [git](https://git-scm.com/downloads) is installed on your local machine
+3. Clone this repository on your local machine using git
+```
+git clone https://github.com/julienOlivier3/risk-analytics.git
+```
+4. Create a virtual environment and install required dependencies into it
+```
+python -m venv .venv
+```
+5. Activate newly created virtual environment
+```
+source .venv/Scripts/activate
+```
+6. Install all required dependencies into the newly created virtual environment
+```
+pip install -r requirements.txt
+```
+7. Open Jupyter Lab:
+```
+juypter lab
+```
 
 ## Notes
 Notes
