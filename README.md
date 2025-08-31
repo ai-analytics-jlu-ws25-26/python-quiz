@@ -1,20 +1,19 @@
-This is a final test for high school students who attended 4 2-hour Python lessons.
+# Python Quiz
 
-It's meant for a 2 hour test at the end of the course.
+This repository contains 10 small Python programming tasks designed to help you assess your Python programming skills. Most tasks are entry-level, while some require intermediate knowledge of Python.
 
-After the test is complete, the teacher will read the student's code
-and give each one an individual opinion regardin his/her programming
-skills.
+These tasks serve as a self-assessment tool to evaluate your proficiency in Python. All tasks can be solved using Python's standard library, without requiring any third-party libraries. You are encouraged to consult package documentation, visit [Stack Overflow](https://stackoverflow.com/questions), or use Generative AI tools to clarify any questions you encounter while solving the tasks. However, avoid using Generative AI to directly solve the tasks for you—that would defeat the purpose of self-assessment. 😉
 
-0 - I'm not sure if coding is for you.
+The file [task0.py](task0.py) is provided as an example to illustrate how to approach and solve the tasks.
 
-1 - you have very basic coding skills. If you would like to work
-as a programmer, you need to put more work into it.
+Once you have completed all the tasks, run the following command in your terminal to grade your solutions:
+```bash
+streamlit run [grader.py](http://_vscodecontentref_/0)
 
-2 - you have essential coding skills. You would likely get accepted
-for a programming traineeship/apprenticeship.
+## Notes
+Notes
+- The grading system uses Python's doctest module to evaluate your solutions.
+- Make sure your solutions are saved in files named task*.py (e.g., task0.py, task1.py).
+- Have fun solving the tasks and testing your Python skills!
 
-3 - you are pretty fluent in coding. In my honest opinion you can
-apply for an entry level programming job and get accepted.
-
-It contains a script that will check results (grade.py).
+Feel free to reach out if you encounter any issues or have questions about the tasks. 

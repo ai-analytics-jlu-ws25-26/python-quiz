@@ -1,11 +1,10 @@
-# Create a Car class with an x property. Return an object of class Car with x=1
+# You are given a list of integers. Sort them in reverse order (largest to smallest)
 
 
-def make_object():
+def sort_reverse(list_of_integers):
     """
-    >>> c=make_object()
-    >>> c.x == 1
-    True
-    >>> c.__class__.__name__ == 'Car'
-    True
+    >>> sort_reverse([5,1,2,8])
+    [8, 5, 2, 1]
+    >>> sort_reverse([7,1,3,10])
+    [10, 7, 3, 1]
     """

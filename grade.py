@@ -3,7 +3,7 @@ import subprocess
 import re
 
 files = glob.glob("task*py")
-score = -1
+score = 0
 for f in files:
     o = ""
     try:
@@ -18,4 +18,4 @@ for f in files:
     print("%s: %.1lf/1.0" % (f, passed / (passed + failed)))
     score += passed / (passed + failed)
 
-print("Your score is: %.1lf/%d" % (score // 1, len(files) - 1))
+print("Your score is: %.1lf/%d" % (score, len(files)))
