@@ -35,7 +35,7 @@ juypter lab
 ```
 
 ## Notes
-Notes
+
 - The grading system uses Python's doctest module to evaluate your solutions.
 - Make sure your solutions are saved in files named task*.py (e.g., task0.py, task1.py).
 - Have fun solving the tasks and testing your Python skills!
