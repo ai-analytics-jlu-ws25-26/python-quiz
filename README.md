@@ -15,15 +15,16 @@ Please follow the steps below to get started with the course material:
 
 1. Install [Python 3.12](https://www.python.org/downloads/release/python-3120/) (or higher) on your local machine.
 2. Install [Git](https://git-scm.com/downloads) on your local machine.
-3. Clone the repository on your local machine using Git:
+3. Accept the invitation to the @ai-analytics-jlu-ws25-26 organization that has been sent to you via mail (create a GitHub account if you have not done so already)
+4. Clone the repository on your local machine using Git:
     ```
     git clone https://github.com/ai-analytics-jlu-ws25-26/python-quiz.git
     ```
-4. Open a terminal in the `.\python-quiz` directory and create a virtual environment:
+5. Open a terminal in the `.\python-quiz` directory and create a virtual environment:
     ```
     python -m venv .venv
     ```
-5. Activate the newly created virtual environment:
+6. Activate the newly created virtual environment:
     - On Windows:
       ```
       .venv\Scripts\activate
@@ -32,11 +33,11 @@ Please follow the steps below to get started with the course material:
       ```
       source .venv/bin/activate
       ```
-6. Install all required dependencies from the root directory:
+7. Install all required dependencies from the root directory:
     ```
     pip install -r requirements.txt
     ```
-7. Open Jupyter Lab:
+8. Open Jupyter Lab:
     ```
     jupyter lab
     ```
@@ -49,4 +50,5 @@ Please follow the steps below to get started with the course material:
 
 
 Feel free to reach out if you encounter any issues or have questions about the tasks. 
+
 
