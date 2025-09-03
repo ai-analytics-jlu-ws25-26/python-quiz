@@ -17,7 +17,7 @@ Please follow the steps below to get started with the course material:
 2. Install [Git](https://git-scm.com/downloads) on your local machine.
 3. Clone the repository on your local machine using Git:
     ```
-    git clone https://github.com/julienOlivier3/python-quiz.git
+    git clone https://github.com/ai-analytics-jlu-ws25-26/python-quiz.git
     ```
 4. Open a terminal in the `.\python-quiz` directory and create a virtual environment:
     ```
@@ -49,3 +49,4 @@ Please follow the steps below to get started with the course material:
 
 
 Feel free to reach out if you encounter any issues or have questions about the tasks. 
+
