@@ -13,14 +13,18 @@ streamlit run grader.py
 ## Technical Setup-up
 Please follow the steps below to get started with the course material:
 
-1. Install [Python 3.12](https://www.python.org/downloads/release/python-3120/) (or higher) on your local machine.
-2. Install [Git](https://git-scm.com/downloads) on your local machine.
-3. Accept the invitation to the @ai-analytics-jlu-ws25-26 organization that has been sent to you via mail (create a GitHub account if you have not done so already)
-4. Clone the repository on your local machine using Git:
+1. Accept the invitation to the @ai-analytics-jlu-ws25-26 organization that has been sent to you via mail (create a GitHub account if you have not done so already)
+2. Install [Python 3.12](https://www.python.org/downloads/release/python-3120/) (or higher) on your local machine.
+3. Install [Git](https://git-scm.com/downloads) on your local machine.
+4. Clone the repository somewhere on your local machine using Git:
     ```
     git clone https://github.com/ai-analytics-jlu-ws25-26/python-quiz.git
     ```
-5. Open a terminal in the `.\python-quiz` directory and create a virtual environment:
+5. Change directory into the newly created folder `.\python-quiz`
+    ```
+    cd python-quiz
+    ```
+5. Create a virtual environment:
     ```
     python -m venv .venv
     ```
@@ -50,5 +54,6 @@ Please follow the steps below to get started with the course material:
 
 
 Feel free to reach out if you encounter any issues or have questions about the tasks. 
+
 
 
