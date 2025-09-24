@@ -8,4 +8,3 @@ def add_tax(price):
     >>> add_tax(6.53)
     7.97
     """
-    return round(price*1.22,2)
